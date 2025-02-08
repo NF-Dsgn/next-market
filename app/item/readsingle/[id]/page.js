@@ -16,6 +16,8 @@ const ReadSingleItem = async(context) => {
   // console.log(singleItem);
   return (
     <div className="grid-container-si">
+      <title>{singleItem.title}</title>
+      <meta name="description" content={singleItem.description}/>
       <div>
         <Image src={singleItem.image} width={750} height={500} alt="item-image" priority />
       </div>

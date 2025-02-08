@@ -32,6 +32,8 @@ const Register = () => {
 
   return (
     <div>
+        <title>ユーザー登録</title>
+        <meta name="description" content="ユーザー登録"/>
       <h1 className="page-title">ユーザー登録</h1>
       <form onSubmit={handleSubmit}>
         <input value={name} onChange={(e)=>setName(e.target.value)} type="text" name="name" placeholder="名前" required/>
